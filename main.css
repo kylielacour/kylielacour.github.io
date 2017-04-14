@@ -1,0 +1,80 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    color: #0039f8;
+    text-transform: uppercase;
+    
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.7em;
+    color: #000;
+    font-size: 14px;
+}
+
+a {
+    color: #f84c00;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 3.5px #0039f8 solid;
+}
+#first {
+    margin-left: 75px;
+    margin-top: 50px;
+    width: 400px;
+}
+
+#email {
+    margin-left: 75px;
+    margin-top: 50px;
+    width: 400px;
+    position: relative;
+}
+
+#smallcaps {
+    font-size: 13.5px;
+    letter-spacing: .13em;
+    font-weight: 400;
+}
+
+#info {
+    color: #f84c00;
+}
+
+#email2 {
+    font-size: 11px;
+    letter-spacing: .14em;
+}
+
+
+
+
+.box {
+  animation: change-background 4s linear infinite alternate;
+}
+
+/* Keyframes */
+@keyframes change-background {
+  0% {
+    background: #0039f8;
+  }
+
+  100% {
+    background: #f84c00;
+  }
+}
+
+.box {
+    background: blue;
+    position: relative;
+    margin-left: -10px;
+    margin-top: -10px;
+    height: 30px;
+    width: 100%;
+}
+}
