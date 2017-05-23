@@ -1,5 +1,6 @@
 body {
     background-image: url("http://i.imgur.com/zceKOYO.png");
+    background-size: 30%;
 }
 
 h1 {
@@ -63,6 +64,11 @@ a:hover {
 
 @media only screen and (max-device-width: 700px) {
 
+body {
+    background-image: url("http://i.imgur.com/zceKOYO.png");
+    background-size: 90%;
+}
+    
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 70px;
