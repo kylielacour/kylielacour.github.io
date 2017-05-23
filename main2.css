@@ -1,0 +1,150 @@
+body {
+    background-image: url("http://i.imgur.com/zceKOYO.png");
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    color: #fc7085;
+    text-transform: uppercase;
+    
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.7em;
+    color: #000;
+    font-size: 14px;
+}
+
+a {
+    color: #F6A623;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 3.5px #B8E986 solid;
+}
+#first {
+    margin: 45px;
+    width: 400px;
+    background-color: #fff;
+    padding: 63px;
+}
+
+#email {
+    margin-left: 75px;
+    margin-top: 50px;
+    width: 400px;
+    position: relative;
+}
+
+#smallcaps {
+    font-size: 13.5px;
+    letter-spacing: .13em;
+    font-weight: 400;
+}
+
+#info {
+    color: #fc7085;
+}
+
+#email2 {
+    font-size: 11px;
+    letter-spacing: .14em;
+    margin-top: 50px;
+}
+
+/* For Mobile
+-----------------------------------------------*/
+
+
+@media only screen and (max-device-width: 700px) {
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    color: #fc7085;
+    text-transform: uppercase;
+    
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    line-height: 3em;
+    color: #000;
+    font-size: 14px;
+}
+
+a {
+    color: #F6A623;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 3.5px #B8E986 solid;
+}
+#first {
+    margin: 45px;
+    width: 400px;
+    background-color: #fff;
+    padding: 63px;
+}
+
+#email {
+    margin-left: 75px;
+    margin-top: 50px;
+    width: 400px;
+    position: relative;
+}
+
+#smallcaps {
+    font-size: 13.5px;
+    letter-spacing: .13em;
+    font-weight: 400;
+}
+
+#info {
+    color: #fc7085;
+}
+
+#email2 {
+    font-size: 11px;
+    letter-spacing: .14em;
+    margin-top: 50px;
+}
+}
+
+
+/* Gradient Box Change Animation
+--------------------------------------------------*/
+
+
+.box {
+  animation: change-background 4s linear infinite alternate;
+}
+
+/* Keyframes */
+@keyframes change-background {
+  0% {
+    background: #0039f8;
+  }
+
+  100% {
+    background: #f84c00;
+  }
+}
+
+.box {
+    background: blue;
+    position: relative;
+    margin-left: 75px;
+    margin-top: 75px;
+    height: 10px;
+    width: 60px;
+}
+}
