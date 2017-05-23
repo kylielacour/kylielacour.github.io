@@ -75,9 +75,9 @@ h1 {
 
 p {
     font-family: 'Roboto Mono', monospace;
-    line-height: 2em;
+    line-height: 1.7em;
     color: #000;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 a {
@@ -113,7 +113,7 @@ a:hover {
 }
 
 #email2 {
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: .14em;
     margin-top: 50px;
 }
