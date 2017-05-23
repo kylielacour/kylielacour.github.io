@@ -75,9 +75,9 @@ h1 {
 
 p {
     font-family: 'Roboto Mono', monospace;
-    line-height: 3em;
+    line-height: 2em;
     color: #000;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 a {
@@ -90,7 +90,7 @@ a:hover {
 }
 #first {
     margin: 45px;
-    width: 400px;
+    width: 699px;
     background-color: #fff;
     padding: 63px;
 }
@@ -98,12 +98,12 @@ a:hover {
 #email {
     margin-left: 75px;
     margin-top: 50px;
-    width: 400px;
+    width: 699px;
     position: relative;
 }
 
 #smallcaps {
-    font-size: 13.5px;
+    font-size: 18px;
     letter-spacing: .13em;
     font-weight: 400;
 }
@@ -113,7 +113,7 @@ a:hover {
 }
 
 #email2 {
-    font-size: 11px;
+    font-size: 20px;
     letter-spacing: .14em;
     margin-top: 50px;
 }
