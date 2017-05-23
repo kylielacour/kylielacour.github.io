@@ -1,9 +1,13 @@
+body {
+    background-image: url("http://i.imgur.com/zceKOYO.png");
+}
+
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     font-weight: 700;
     letter-spacing: .1em;
-    color: #0039f8;
+    color: #fc7085;
     text-transform: uppercase;
     
 }
@@ -16,17 +20,79 @@ p {
 }
 
 a {
-    color: #f84c00;
+    color: #F6A623;
     text-decoration: none;
 }
 
 a:hover {
-    border-bottom: 3.5px #0039f8 solid;
+    border-bottom: 3.5px #B8E986 solid;
 }
 #first {
+    margin: 45px;
+    width: 400px;
+    background-color: #fff;
+    padding: 63px;
+}
+
+#email {
     margin-left: 75px;
     margin-top: -10px;
     width: 400px;
+    position: relative;
+}
+
+#smallcaps {
+    font-size: 13.5px;
+    letter-spacing: .13em;
+    font-weight: 400;
+}
+
+#info {
+    color: #fc7085;
+}
+
+#email2 {
+    font-size: 11px;
+    letter-spacing: .14em;
+    margin-top: 50px;
+}
+
+/* For Mobile
+-----------------------------------------------*/
+
+
+@media only screen and (max-device-width: 700px) {
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    color: #fc7085;
+    text-transform: uppercase;
+    
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    line-height: 3em;
+    color: #000;
+    font-size: 14px;
+}
+
+a {
+    color: #F6A623;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 3.5px #B8E986 solid;
+}
+#first {
+    margin: 45px;
+    width: 400px;
+    background-color: #fff;
+    padding: 63px;
 }
 
 #email {
@@ -43,15 +109,19 @@ a:hover {
 }
 
 #info {
-    color: #f84c00;
+    color: #fc7085;
 }
 
 #email2 {
     font-size: 11px;
     letter-spacing: .14em;
+    margin-top: 50px;
+}
 }
 
 
+/* Gradient Box Change Animation
+--------------------------------------------------*/
 
 
 .box {
@@ -76,5 +146,8 @@ a:hover {
     margin-top: 75px;
     height: 10px;
     width: 60px;
+<<<<<<< HEAD
+=======
 }
+>>>>>>> master
 }
