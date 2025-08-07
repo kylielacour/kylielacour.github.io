@@ -1,159 +1,52 @@
-body {
-    background-image: url("http://i.imgur.com/zceKOYO.png");
-    background-size: 30%;
+:root {
+    --background-color: #F7EDDD;
+    --text-color: #000;
 }
 
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: .1em;
-    color: #fc7085;
-    text-transform: uppercase;
-    
-}
-
-p {
-    font-family: 'Roboto Mono', monospace;
-    line-height: 1.7em;
-    color: #000;
-    font-size: 14px;
-}
-
-a {
-    color: #F6A623;
-    text-decoration: none;
-}
-
-a:hover {
-    border-bottom: 3.5px #B8E986 solid;
-}
-#first {
-    margin: 45px;
-    width: 400px;
-    background-color: #fff;
-    padding: 63px;
-}
-
-#email {
-    margin-left: 75px;
-    margin-top: -10px;
-    width: 400px;
-    position: relative;
-}
-
-#smallcaps {
-    font-size: 13.5px;
-    letter-spacing: .13em;
-    font-weight: 400;
-}
-
-#info {
-    color: #fc7085;
-}
-
-#email2 {
-    font-size: 11px;
-    letter-spacing: .14em;
-    margin-top: 50px;
-}
-
-/* For Mobile
------------------------------------------------*/
-
-
-@media only screen and (max-device-width: 700px) {
-
-body {
-    background-image: url("http://i.imgur.com/zceKOYO.png");
-    background-size: 90%;
-}
-    
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 70px;
-    font-weight: 700;
-    letter-spacing: .1em;
-    color: #fc7085;
-    text-transform: uppercase;
-    
-}
-
-p {
-    font-family: 'Roboto Mono', monospace;
-    line-height: 1.7em;
-    color: #000;
-    font-size: 18px;
-}
-
-a {
-    color: #F6A623;
-    text-decoration: none;
-}
-
-a:hover {
-    border-bottom: 3.5px #B8E986 solid;
-}
-#first {
-    margin: 45px;
-    width: 699px;
-    background-color: #fff;
-    padding: 63px;
-}
-
-#email {
-    margin-left: 75px;
-    margin-top: 50px;
-    width: 699px;
-    position: relative;
-}
-
-#smallcaps {
-    font-size: 20px;
-    letter-spacing: .13em;
-    font-weight: 400;
-}
-
-#info {
-    color: #fc7085;
-}
-
-#email2 {
-    font-size: 15px;
-    letter-spacing: .14em;
-    margin-top: 50px;
-}
+@font-face {
+    font-family: "SuisseIntl-Regular";
+    src: url("https://db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.eot");
+    src: url("https://db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.svg#SuisseIntl-Regular")format("svg");
 }
 
 
-/* Gradient Box Change Animation
---------------------------------------------------*/
-
-
-.box {
-  animation: change-background 4s linear infinite alternate;
+body, html {
+    height: 100%;
+    margin: 0;
 }
 
-/* Keyframes */
-@keyframes change-background {
-  0% {
-    background: #0039f8;
-  }
-
-  100% {
-    background: #f84c00;
-  }
+.fullscreen {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    align-items: center;    /* vertical centering */
+    background: var(--background-color);
 }
 
-.box {
-    background: blue;
-    position: relative;
-    margin-left: 75px;
-    margin-top: 75px;
-    height: 10px;
-    width: 60px;
-<<<<<<< HEAD
-=======
+.content {
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 20px;
+    margin-bottom: 75px;
+    margin-right: 50px;
 }
->>>>>>> master
+
+.content svg {
+    width: 100px;
+    height: 100%;
+}
+
+.logo-text {
+    font-family: "SuisseIntl-Regular", sans-serif;
+    font-size: 4.2rem;
+    color: var(--text-color);
+    letter-spacing: -2px;
 }
