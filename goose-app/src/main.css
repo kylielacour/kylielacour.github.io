@@ -1,7 +1,7 @@
 /* Fun text highlight color */
 ::selection {
-  background: #ffe066;
-  color: #222;
+  background: cyan;
+  color: blue;
 }
 .goose-jump {
   animation: gooseJump 0.5s cubic-bezier(.42,0,.58,1);

@@ -1,3 +1,4 @@
+import './main.css';
 import Goose from './goose';
 import './App.css';
 
